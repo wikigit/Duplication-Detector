@@ -10,3 +10,13 @@ The PHP source for Duplication Detector is available under the
 Simplified (2-clause) BSD License. It does not require Toolserver to
 run, so feel free to download and use it yourself using your own
 webserver or the php command-line tool.
+
+To install dupdet, install a web server and PHP, and place
+the dupdet files in the root of your web site. On Debian, this usually 
+is /var/www/html/ .
+
+When checking against some difficult web sites, dupdet may become
+unresponsive. The solution to this for the moment is a restart of 
+the web server by hand. If these web sites become known, or a 
+script for automatically restarting dupdet is written,
+they will be uploaded to this repository.
